@@ -27,7 +27,7 @@ function NavBar({user, setUser}) {
                     <Link to='/' className='navbarlinkhead'>RNY</Link>
                     {/* <Link to='/' className='navbarlinkhead1'>Home</Link> */}
                     <p className='navbardivider'>|</p>
-                    <Link className='navbarlink' to='/resources'>Resources.</Link>
+                    <Link className='navbarlink' to='/chat'>Chat.</Link>
                     <Link className='navbarlink' to='/listings'>Listings.</Link>
                     {/* <Link className='navbarlink' to='/residencies'>Residencies.</Link> */}
                     <Link className='navbarlink' to='/forums'>Forum.</Link>
