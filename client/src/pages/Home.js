@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import ThreeD from '../components/ThreeD';
 
 const style = {
     position: 'absolute',
@@ -61,7 +62,7 @@ const style = {
                         <h2 className='homepageh2loggedin'>Welcome, {user.username}.</h2>
                         <p className='homepageploggedin'>Enjoy your visit.</p>
                         <h3 className='homepageh3loggedin'>Not sure where to begin?</h3>
-                        <div className='homepageoptionsdivloggedin'>
+                        {/* <div className='homepageoptionsdivloggedin'>
                             <Link className='homepagelinkloggedin' to='/forums'>Check out the forums.</Link>
                         </div>
                         <div className='homepageoptionsdivloggedin'>
@@ -69,7 +70,8 @@ const style = {
                         </div>
                         <div className='homepageoptionsdivloggedin'>
                             <Link className='homepagelinkloggedin' to='/profile'>View your profile.</Link>
-                        </div>
+                        </div> */}
+                        <ThreeD />
                     </div>
                 </div>
                 <div className="footer-position">
